@@ -1,0 +1,12 @@
+.review {
+    background-color: #f0f4f8;
+    /* Light gray background */
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-left: 6px solid #3b82f6;
+    border-radius: 8px;
+}
+
+.review p {
+    line-height: 1.5;
+}

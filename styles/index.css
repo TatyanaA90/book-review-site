@@ -1,0 +1,21 @@
+img.book-cover {
+    width: 100%;
+    /* Ensure images scale correctly */
+    max-width: 250px;
+    /* Limit to a max width */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition */
+}
+
+/* Hover effect for book covers */
+img.book-cover:hover {
+    transform: scale(1.07);
+    /* Slightly increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}

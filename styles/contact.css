@@ -1,0 +1,12 @@
+main.contact {
+    text-align: center;
+}
+
+.maintainer-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
